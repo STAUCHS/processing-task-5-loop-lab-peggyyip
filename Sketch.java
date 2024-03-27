@@ -1,5 +1,9 @@
 import processing.core.PApplet;
-
+/**
+ * Processing Task #5 - Generating code with 8 different designs in 8 different boxes/quadrants
+ * @author: P. Yip 
+ *
+ */
 public class Sketch extends PApplet {
   public void settings() {
     size(1200, 600);
@@ -46,7 +50,7 @@ public class Sketch extends PApplet {
     int intY = 0;
 
     for (int intRow = 0; intRow < 30; intRow++) {
-      for (int intColumn = 0; intColumn < 30; intColumn ++) {
+      for (int intColumn = 0; intColumn < 30; intColumn++) {
         intX = 3 + intRow * 10; 
         intY = 300 + 3 + intColumn * 10; 
 
@@ -62,8 +66,8 @@ public class Sketch extends PApplet {
     int intX = 0;
     int intY = 0;
 
-    for (int intRow = 0; intRow < 30; intRow ++) {
-      for (int intColumn = 0; intColumn < 30; intColumn ++) {
+    for (int intRow = 0; intRow < 30; intRow++) {
+      for (int intColumn = 0; intColumn < 30; intColumn++) {
         intX = 3 + 300 + intRow * 10; 
         intY = 300 + 3 + intColumn * 10; 
       
@@ -130,7 +134,7 @@ public class Sketch extends PApplet {
     int intY = 0;
     int intMaximum = 0;
 
-    for (int intRow = 29; intRow >= 1; intRow --) {
+    for (int intRow = 29; intRow >= 1; intRow--) {
       intMaximum ++;
       for (int intColumn = 30; intColumn >= intMaximum; intColumn--) {
         intX = 3 + intRow * 10; 
@@ -149,7 +153,7 @@ public class Sketch extends PApplet {
     int intY = 0;
     int intMaximum = -1;
 
-    for (int intRow = 0; intRow <= 30; intRow ++) {
+    for (int intRow = 0; intRow <= 30; intRow++) {
       intMaximum ++;
       for (int intColumn = 29; intColumn >= intMaximum; intColumn--) {
         intX = 300 + intRow * 10; 
@@ -168,7 +172,7 @@ public class Sketch extends PApplet {
     int intY = 0;
     int intMaximum = 30;
 
-    for (int intRow = 0; intRow <= 30; intRow ++) {
+    for (int intRow = 0; intRow <= 30; intRow++) {
       intMaximum --;
       for (int intColumn = 0; intColumn <= intMaximum; intColumn++) {
         intX = 600 + 3 + intRow * 10; 
@@ -187,7 +191,7 @@ public class Sketch extends PApplet {
     int intY = 0;
     int intMaximum = 31;
 
-    for (int intRow = 30; intRow >= 0; intRow --) {
+    for (int intRow = 30; intRow >= 0; intRow--) {
       intMaximum --;
       for (int intColumn = 0; intColumn <= intMaximum; intColumn++) {
         intX = 900 + 3 + intRow * 10; 

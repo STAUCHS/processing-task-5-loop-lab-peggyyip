@@ -1,8 +1,8 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * Processing Task #5 - Generating code with 8 different designs in 8 different boxes/quadrants
+ * @author: P. Yip
  *
  */
 class Main {
