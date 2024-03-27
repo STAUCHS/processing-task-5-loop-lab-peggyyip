@@ -138,7 +138,7 @@ public class Sketch extends PApplet {
       intMaximum ++;
       for (int intColumn = 30; intColumn >= intMaximum; intColumn--) {
         intX = 3 + intRow * 10; 
-        intY = 3 + intColumn*  10; 
+        intY = 3 + intColumn * 10; 
 
         fill(255);
         noStroke();
